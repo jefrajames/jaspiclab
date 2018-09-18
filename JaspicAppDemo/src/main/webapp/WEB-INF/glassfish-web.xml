@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glassfish-web-app httpservlet-security-provider="SAMDemo">
+    
+    <!-- In order for GlassFish to accept the roles that our authentication module puts into the JAAS Subject we have to map them to groups. -->
+    <security-role-mapping>
+        <role-name>standard</role-name>
+        <group-name>standard</group-name>
+    </security-role-mapping>
+    <security-role-mapping>
+        <role-name>admin</role-name>
+        <group-name>admin</group-name>
+    </security-role-mapping>
+
+</glassfish-web-app>
