@@ -32,7 +32,7 @@ How to:
 
 1. Generate JaspciSamDemo.jar and copy it to the lib directory of you application server by running maven install (do not forget to adjust payara.home property in your pom.xml)
 1. Restart Payara (or Glassfish),
-1. Configure it as a secure module using the Admin Console,
+1. Configure it as HttpServlet Message Security Provider using the Glassfish Admin Console.
 1. Deploy the JaspicAppDemo and test it using URL such as:
 
     * http://localhost:8080/JaspicAppDemo/SecuredServlet?user=jefrajames&group=admin
